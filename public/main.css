@@ -5,5 +5,13 @@ body {
   margin: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 /* Sublime: 193, 95%, 13% */
 /* one dark: 220, 23%, 18% */

@@ -4,25 +4,41 @@ import { StyledSection } from '../styled'
 import { Comment } from '..'
 import { EnthusiasmLevelInput } from '../../containers'
 
-import { Purple, Blue, Grey, Green, Red, StyledTab } from '../styled'
+import {
+  Purple,
+  Blue,
+  Grey,
+  Green,
+  Red,
+  StyledTab,
+  StyledVariable
+} from '../styled'
 
 function Variables () {
   return (
     <StyledSection>
       <Comment comment={'Global Variables'} />
-      <div>
+      <StyledVariable>
+        <Purple>import</Purple>
+        <Grey> {'{'} </Grey>
+        <Red> Resume, Curriculum Vitae</Red>
+        <Grey> {'}'} </Grey>
+        <Purple>from</Purple>
+        <Green>
+          {' '}
+          <a href='https://github.com/ullibodnar' target={'_blank'}>
+            'github.com/ullibodnar'
+          </a>
+          {' '}
+        </Green>
+      </StyledVariable>
+
+      <StyledVariable>
         <Purple>const</Purple>
         <Red> enthusiasmLevel</Red>
         <Grey> = </Grey>
         <EnthusiasmLevelInput />
-      </div>
-
-      <div>
-        <Purple>const</Purple>
-        <Red> name</Red>
-        <Grey> = </Grey>
-        <Green>'Ulli</Green>
-      </div>
+      </StyledVariable>
 
     </StyledSection>
   )

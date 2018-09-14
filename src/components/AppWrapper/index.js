@@ -9,11 +9,12 @@ const StyledApp = styled.div`
 `
 StyledApp.displayName = 'StyledApp'
 
-function AppWrapper () {
+function AppWrapper ({ enthusiasm }) {
+  console.log(enthusiasm)
   return (
     <StyledApp>
       <Variables />
-      <Introduction />
+      <Introduction enthusiasm={enthusiasm} />
       <Experience />
     </StyledApp>
   )

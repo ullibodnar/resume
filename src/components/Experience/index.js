@@ -5,7 +5,7 @@ import { Comment } from '..'
 
 function Experience () {
   return (
-    <StyledSection>
+    <StyledSection top={'30px'}>
       <Comment comment={'Experience'} />
       <h1>Experience here</h1>
     </StyledSection>
