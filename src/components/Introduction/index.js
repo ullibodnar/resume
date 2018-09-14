@@ -23,6 +23,3 @@ function Introduction () {
 }
 
 export default Introduction
-
-const giveIntroduction = () =>
-  'Ulli is a Junior front-end web developer, actively seeking a role in the exciting industry.'

@@ -20,4 +20,9 @@ const Green = styled.span`
 `
 Green.displayName = 'Green'
 
-export { Purple, Blue, Grey, Green }
+const Red = styled.span`
+  color: hsla(2, 63%, 68%, 1);
+`
+Red.displayName = 'Red'
+
+export { Purple, Blue, Grey, Green, Red }

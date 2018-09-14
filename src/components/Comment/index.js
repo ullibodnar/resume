@@ -10,7 +10,7 @@ StyledComment.displayName = 'StyledComment'
 function Comment ({ comment }) {
   return (
     <StyledComment>
-      // {comment}
+      {`// ${comment}`}
     </StyledComment>
   )
 }
