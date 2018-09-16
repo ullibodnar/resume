@@ -2,9 +2,18 @@ import React, { Component } from 'react'
 
 import { AppWrapper } from '../../containers'
 
+import { Notification } from '..'
+
 class App extends Component {
   render () {
-    return <AppWrapper />
+    return (
+      <div>
+        <Notification message={'initial'} />
+
+        <AppWrapper />
+
+      </div>
+    )
   }
 }
 

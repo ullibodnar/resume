@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
+    "react-pose": "^3.3.0",
     "react-redux": "^5.0.7",
     "react-responsive": "^5.0.0",
     "react-scripts": "1.1.5",

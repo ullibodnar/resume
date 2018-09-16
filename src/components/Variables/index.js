@@ -17,7 +17,7 @@ import {
 function Variables () {
   return (
     <StyledSection>
-      <Comment comment={'Global Variables'} />
+      <Comment comment={'Global Variables (white boxes can be changed!)'} />
       <StyledVariable>
         <Purple>import</Purple>
         <Grey> {'{'} </Grey>
@@ -27,7 +27,7 @@ function Variables () {
         <Green>
           {' '}
           <a href='https://github.com/ullibodnar' target={'_blank'}>
-            'github.com/ullibodnar'
+            'ullibodnar-github'
           </a>
           {' '}
         </Green>

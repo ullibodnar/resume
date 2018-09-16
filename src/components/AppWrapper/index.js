@@ -10,7 +10,6 @@ const StyledApp = styled.div`
 StyledApp.displayName = 'StyledApp'
 
 function AppWrapper ({ enthusiasm }) {
-  console.log(enthusiasm)
   return (
     <StyledApp>
       <Variables />

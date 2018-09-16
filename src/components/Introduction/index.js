@@ -25,7 +25,7 @@ function Introduction ({ enthusiasm }) {
 }
 
 function giveProperIntroduction (enthusiasm) {
-  if (enthusiasm == 5) {
+  if (enthusiasm == 5 || enthusiasm === '') {
     return `Ulli is a Junior front-end web developer, actively seeking a role in one of todays most exciting industries.`
   } else if (enthusiasm < 1) {
     return 'Ulli is seeking to land a job as a web developer.'
@@ -38,7 +38,7 @@ function giveProperIntroduction (enthusiasm) {
   } else if (enthusiasm >= 9) {
     return 'Ulli is a Junior front-end web developer, whom has a strong passion for coding. He is actively seeking a role in one of todays most exciting industries!!! He is super excited to join the team and make a difference 😄'
   } else {
-    return 'Ulli is seeking to land a job as a web developer. He also thinks you should choose a real number, he is very enthused!'
+    return `Hey, I'm Ulli. This is embarrassing, but my program doesn't know what '${enthusiasm}' is... My enthusiasm level is great, trust me.`
   }
 }
 
