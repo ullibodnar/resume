@@ -6,9 +6,9 @@ import { StyledEmoji } from '../styled'
 
 const Animator = posed.div({
   hidden: {
-    y: -180,
+    y: -360,
     transition: {
-      duration: 200
+      duration: 800
     }
   },
   visible: {
@@ -33,10 +33,10 @@ class Notification extends React.Component {
   componentDidMount () {
     setTimeout(() => {
       this.setState({ isVisible: true })
-    }, 800)
-    setTimeout(() => {
-      this.setState({ isVisible: false })
-    }, 5000)
+      setTimeout(() => {
+        this.setState({ isVisible: false })
+      }, 6000)
+    }, 4000)
   }
 
   handleClick = () => {
@@ -62,12 +62,10 @@ function getMessage (type) {
     return (
       <StyledNotification>
         <StyledNotificationBody>
-          {' '}<p>
+          <p>
             This resume is
-            {' '}
-            <em>interactive</em>
+            <em> interactive</em>
             . Try to change the white boxes!
-            {' '}
           </p>
           <StyledEmoji size={'28px'}>😜</StyledEmoji>
         </StyledNotificationBody>

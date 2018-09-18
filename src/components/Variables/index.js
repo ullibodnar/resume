@@ -17,7 +17,7 @@ import {
 function Variables () {
   return (
     <StyledSection>
-      <Comment comment={'Global Variables (white boxes can be changed!)'} />
+      <Comment comment={'Global Variables'} />
       <StyledVariable>
         <Purple>import</Purple>
         <Grey> {'{'} </Grey>
@@ -43,7 +43,5 @@ function Variables () {
     </StyledSection>
   )
 }
-
-const myName = 'Ulli'
 
 export default Variables
